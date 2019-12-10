@@ -1,0 +1,201 @@
+/* 
+  Start Main Rules 
+*/
+
+@font-face {
+    font-family: "Coda-Regular";
+    src: url("fonts/Coda-Regular.ttf") format("opentype");
+}
+
+body {
+    background: #fff;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Coda-Regular", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.main-header {
+    background-color: #18374b;
+}
+
+h1,
+h2 {
+    color: #18394c;
+    font-size: 32px;
+}
+
+h3 {
+    color: #18394c;
+}
+
+
+/* Start Header Css */
+
+header {
+    background: linear-gradient( to right, #ffffff 0%, #ffffff 70%, #18374b 70%, #18374b 100%);
+}
+
+.main-img {
+    max-width: 1200px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* Menu Css */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+    color: #18394c;
+}
+
+
+/* Search Css */
+
+.search-inp,
+.search-inp:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+.fa-icon {
+    color: #cecccc;
+}
+
+
+/* End Header Css */
+
+
+/* Start Posts Css */
+
+.post-date span {
+    background-color: #d32e32;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.post-title h3 {
+    color: #18394c;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.main_post:hover .post-img img {
+    filter: contrast(1);
+}
+
+.post-img img {
+    filter: contrast(0.7);
+    transition: all 0.4s ease-in-out;
+}
+
+.main_post:hover .post-link a {
+    color: #d32e32;
+}
+
+.post_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 48px);
+}
+
+.post_data .post-author span {
+    font-weight: 600;
+}
+
+.post-link a {
+    color: #18394c;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+.post-link a:hover {
+    color: #d32e32;
+}
+
+.post-link i {
+    position: relative;
+    top: 2px;
+}
+
+.post-content {
+    color: #074060;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.postf-date {
+    font-size: 14px;
+    color: #074060;
+}
+
+.social-span {
+    position: relative;
+    top: 10px;
+}
+
+.social-title {
+    font-weight: 600;
+    color: #074060;
+}
+
+.fa-face {
+    font-size: 40px;
+    color: #395795;
+}
+
+.fa-twit {
+    font-size: 40px;
+    color: #1b9deb;
+}
+
+
+/* End Posts Css */
+
+
+/* Start Footer Css */
+
+footer {
+    background-color: #18394c;
+    color: rgb(199, 198, 198);
+    font-size: 14px;
+}
+
+.logo-lnk {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.f-title {
+    font-size: 13px;
+}
+
+.f-data {
+    color: #fff;
+    font-weight: 600;
+}
+
+.fa-media {
+    color: #fff;
+    font-size: 3em;
+}
+
+.footer-nav .nav-link {
+    color: rgb(199, 198, 198);
+    font-size: 14px;
+}
+
+
+/* End Footer Css */
